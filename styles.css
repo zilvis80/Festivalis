@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 47px 72px;
+}
+nav ul {
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: raleway;
+  font-weight: 700;
+}
+.portretas {
+  padding: 100px 0;
+}
+.portretas .zmones {
+  text-align: center;
+}
+.portretas .zmones h2 {
+  color: black;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.portretas .zmones p {
+  font-size: 20px;
+  color: black;
+  margin: 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-family: Montserrat;
+  font-weight: 400;
+  margin-left: 63px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav h1 {
+  font-size: 22px;
+  margin: 0;
+}
+nav li {
+  font-size: 15px;
+  margin: 0;
+}
+nav ul .p a,
+nav a:hover {
+  color: red;
+}
+header {
+  height: calc(100vh - 120px);
+  background-image: url(./image/Rectangle\ 2.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header h1 {
+  font-size: 80px;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+header p {
+  font-size: 40px;
+  color: white;
+  padding: 16px 0 63px;
+}
+header .buttons a {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 10px 70px;
+  display: inline-block;
+}
+header .buttons .atlikejus {
+  color: white;
+  background: red;
+}
+header .buttons .bilietus {
+  color: red;
+  background: white;
+  margin-right: 21px;
+}
+header .festival {
+  width: 100%;
+  max-width: 1000px;
+}
+.citata {
+  background: red;
+  padding: 39px 0;
+}
+.citata p {
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 1200px;
+}
